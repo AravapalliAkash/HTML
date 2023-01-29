@@ -8,7 +8,7 @@ CSS:-useed to Beautify like color style.
 
 JS:-(logical) interaction with the user like sending information reciving the information. 
 
-<!DOCTYPE html>:-tell the browser it is a html file
+DOCTYPE html:-tell the browser it is a html file
 p:-the p tag is a paragraph we can.it can also perform css
 
 div:-The div tag is used as a container for HTML elements. 
