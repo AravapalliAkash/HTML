@@ -94,7 +94,7 @@ the scond page can receive the fist page data after submit the form
 
 if target="_blank" open new window
 
-
+ 
 name=it signify the what input is this
 
 autocomplete="off" is used for hide the privacy data or previously entered data
