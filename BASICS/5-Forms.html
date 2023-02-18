@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms</title>
+    </head>
+    <body>
+
+        <h1>Html Forms</h1>
+        <form action="www.akash.com/sumanth/formdata" target="_blank" method="post">
+            <fieldset>
+                <legend>personal details</legend>
+            <h2>Enter Names</h2>
+            <lable for="firstName">First Name</lable>
+            <br>
+            <input type="text"  name="firstname" placeholder="Enter the first name"required>
+            <br>
+            <lable for="lastName">Last Name</lable>
+            <br>
+            <input type="text" placeholder="enter the last name" name="lastname" autocomplete="off">
+            <br>
+            <lable for="number" >Phone Number</lable>
+            <br>
+            <input type="number" name="number" placeholder="Mobile Number"autocomplete="off">
+            <br>
+            </fieldset>
+            <fieldset>
+                <legend>Email details</legend>
+                <lable for="email">Email</lable>           
+                <input type="email"  name="email" placeholder="Enter Email" autocomplete="off">
+                <br>
+                <lable for="password">Password</lable>           
+                <input type="password"  name="password" placeholder="Enter Password" autocomplete="off">
+                <br>
+            </fieldset>
+            <br>
+            <input type="submit">
+        </form>
+        
+        <form>
+            <h2> Raido Buttons=> choose 1st and 2nd fav languages</h1>
+            <input type="radio" id="html" name="fav1" value="html">
+            <label for="html">Html</label>
+            <br>
+            <input type="radio" id="Css" name="fav1" value="css">
+            <label for="Css">css</label>
+            <br>
+            <input type="radio" id="js" name="fav1" value="js">
+            <label for="js">js</label>
+            <br>
+            <br><input type="radio" id="c" name="fav2" value="c">
+            <label for="c">C</label>
+            <br>
+            <input type="radio" id="java" name="fav2" value="java">
+            <label for="java">Java</label>
+            <br>
+            <input type="radio" id="python" name="fav2" value="python">
+            <label for="python">Python</label>
+            <br>
+        </form>
+        <form>
+            <h2>check box - choose 0 or more options</h2>
+            <input type="checkbox" id="vehicle1" value="car">
+            <label for="vehicle1">Car</label>
+            <br>
+            <input type="checkbox" id="vehicle2" value="bike">
+            <label for="vehicle2">Bike</label>
+            <br>
+            <input type="checkbox" id="vehicle3" value="bycicle">
+            <label for="vehicle3">Bycicle</label>
+            <br>
+        </form>
+        <form action="www.akash.com/another form/">
+            <lable for="cars">choose a char</lable>
+            <select size="1">
+                <option value="volvo">Volvo Car</option>
+                <option value="maruthi">Maruthi Car</option>
+                <option value="BMW">BMW Car</option>
+            </select>
+            <br>
+            <lable for="essay">Essay:</lable>
+            <br>
+            <textarea name="essayText" id="essay" cols="20" rows="10"></textarea>
+            <button type="button">clear</button>
+            <input type="submit">
+            
+        </form>
+    </body>
+</html>
