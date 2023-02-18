@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS</title>
+    <style>
+        /*Internal css*/
+        h1{
+            color:green;
+        }
+        .Decendent p{
+            /*Desendent selector*/
+            background-color: red;
+        }
+        .Child>p{
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+    <h1>Introduction to css</h1>
+    <h4>Decendent Selector</h4>
+    <div class="Decendent">
+        <p>para1</p>
+        <div>
+            <p>nested para</p>
+        </div>
+        <p>para2</p>
+    </div>
+    <br>
+    <h4>Child Selector</h4>
+    <div class="Child ">
+        <p>para1</p>
+        <div>
+            <p>nested para</p>
+        </div>
+        <p>para2</p>
+    </div>
+   
+</body>
+</html>

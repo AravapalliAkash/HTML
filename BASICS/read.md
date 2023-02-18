@@ -27,6 +27,7 @@ ex:-if we can highlight something in para graph then we can use span tag.
 anchortag(a):-it is attribute.
 it user for hyperlink means to move one page to another page
 'in anchor tag we can write target=_blank it opens in to another tab else itopen same tab
+linktag:-used in connection blw the files in header file
 
 tags
 b:-bold
